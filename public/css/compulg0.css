@@ -1,0 +1,131 @@
+body {
+    background: rgba(0, 255, 255, 0.3);
+    color: black;
+}
+/* Estilo para el encabezado */
+.hdcont {
+    left: 0;
+    top: 0;
+    width: 100vw;
+    z-index: 99999;
+    background-color: blue;
+    color: aliceblue;
+}
+/* Estilo para contenedor del titulo y logo */
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    z-index: 99999;
+    background-color: blue;
+    color: aliceblue;
+}
+/* Estilos para el texto e imagen de la cabecera para pc */
+.hdclgltlttl {
+    display: none;
+}
+.hdclgttl {
+    font-family: sans-serif;
+    font-size: 1.5em;
+    padding-left: 10%;
+    padding-right: 14%;
+    background-color: blue;
+    color: aliceblue;
+}
+.hdclg {
+    padding-bottom: 0.8%;
+    width: 15%;
+    height: auto;
+    margin-left: 20%;
+}
+a {
+    background-color: blue;
+    color: aliceblue;
+}
+a:hover {
+    background-color: inherit;
+    color: cyan;
+}
+.links a {
+    background-color: blue;
+    color: aliceblue;
+}
+.links > a {
+    padding: 5px;
+}
+.links a:hover {
+    background-color: blue;
+    color: cyan;
+}
+.custom-toggler.navbar-toggler {
+    background-color: aliceblue;
+    border-color: blue;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.txtpost {
+    height: 100vh;
+    padding: 1vw;
+    background-color: black;
+    color: aliceblue;
+}
+/* Estilo para alinear junto a card-text en post.show  */
+.spmlgcardin {
+    padding: 1.7vw;
+    text-align: justify-all;
+}
+/* Estilos para plantilla bienvenido */
+.conttxtimgslr {
+    display: inline-block;
+}
+.ttltxtpimgslr {
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+}
+/* Estilo para texto con imagenes a cada lado */
+.imgmdlft {
+    height: 15vh;
+    width: auto;
+    text-align: left;
+}
+.imgclgrgth {
+    width: 25vw;
+    height: auto;
+    text-align: right;
+}
+/* Imagen de CompuLG a la izquierda */
+.spmlgcenter {
+    padding: 1.7vw;
+    text-align: center;
+    font-size: 3vh;
+}
+.titlelg{
+    font-size: 5vw;
+}
+.smplbl{
+    font-style: italic;
+    font-stretch: extra-expanded;
+    font-weight: 500;
+}
+@media screen and (max-width: 600px) {
+    /* Para el texto responsivo */
+    .hdclg {
+        padding-bottom: 3%;
+        width: 30%;
+        height: auto;
+    }
+    .hdclgttl {
+        display: none;
+    }
+    .hdclgltlttl {
+        display: inline;
+        margin-right: 15px;
+        margin-left: 15px;
+        font-family: cursive, sans-serif;
+        background-color: blue;
+        color: aliceblue;
+    }
+}

@@ -1,0 +1,33 @@
+body {
+  background-color: #006699;
+  align-content: center;
+}
+
+.container{
+    margin-top:5%; margin-left: 10%; margin-right: 10%; background-color: #005782; color: white; border-radius: 15px; opacity: 0.8; width: 80%; height: auto;
+}
+
+.col-sm-10{
+    font-family:courier new; font-weight:bold; font-size:1.5em; text-align:center;
+}
+
+.hdlg{
+    font-size:30px; 
+    font-family: cursive; 
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+    .hdlg{
+      font-size:20px; 
+    }
+    .col-sm-10{
+      font-size:1em;
+      padding: 5%;
+    }
+    .container{
+        margin-left: 0%;
+        margin-right: 15%;
+        width: 85%;
+        height: auto;
+    }
+}

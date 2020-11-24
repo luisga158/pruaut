@@ -1,0 +1,45 @@
+body {
+    background-image: url(https://i.imgur.com/bXp8iS7.jpg);
+    align-content: center;
+}
+.container {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 15px;
+    opacity: 0.8;
+    width: 80%;
+    height: auto;
+}
+.col-sm-10 {
+    font-family: courier new;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+.hdlg {
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+    body {
+        background-image: none;
+        background-color: black;
+    }
+    .container{
+        margin-left: 0%;
+        margin-right: 15%;
+        width: 85%;
+        height: auto;
+    }
+    .hdlg {
+        font-size: 20px;
+    }
+    .col-sm-10 {
+        font-size: 1em;
+        padding: 5%;
+    }
+}
